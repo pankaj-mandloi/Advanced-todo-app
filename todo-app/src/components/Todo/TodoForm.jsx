@@ -10,7 +10,7 @@ const TodoForm = ({ onSubmit, initialData = null, onCancel }) => {
     handleSubmit,
     formState: { errors },
     reset,
-    setValue,
+    // setValue,
   } = useForm({
     resolver: yupResolver(todoSchema),
     defaultValues: {
